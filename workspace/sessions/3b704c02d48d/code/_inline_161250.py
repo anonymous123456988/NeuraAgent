@@ -1,0 +1,5 @@
+p=r"C:\Users\Anony\Videos\Captures\NeuraAgent-完整项目 (1)\agent\tools\app_control.py"
+lines=open(p,encoding="utf-8").read().splitlines()
+for i in range(694,len(lines)):
+    print(i+1, lines[i])
+print("TOTAL", len(lines))
